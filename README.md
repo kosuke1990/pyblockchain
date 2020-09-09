@@ -1,14 +1,11 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# pyblockchain
+This is a pseudo blockchain Application and API written in Python to understand blockchain.
 
-
-Hi there! Welcome to AWS Cloud9!
-
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
+## get start
+pip3 install -r requirements.txt
+python3 wallet_server.py
+python3 blockchain_server.py
+python3 blockchain_server_5001.py
+python3 blockchain_server_5002.py
+python3 wallet_server.py
+python3 wallet_server_8081.py
