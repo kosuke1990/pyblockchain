@@ -1,0 +1,21 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /
+hooks:
+  Install:
+    - location: /requirements.txt
+  ApplicationStart:
+    - location: /blockchain_server.py
+      timeout: 3600
+    - location: /blockchain_server_5001.py
+      timeout: 3600
+    - location: /blockchain_server_5002.py
+      timeout: 3600
+    - location: /wallet.py
+      timeout: 3600
+    - location: /wallet_server.py
+      timeout: 3600
+    - location: /wallet_server_8081.py
+      timeout: 3600
