@@ -4,8 +4,6 @@ files:
   - source: /
     destination: /
 hooks:
-  Install:
-    - location: requirements.txt
   ApplicationStart:
     - location: start.sh
       timeout: 3600
