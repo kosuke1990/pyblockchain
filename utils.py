@@ -54,8 +54,8 @@ def find_neighbours(my_host, my_port, start_ip_range, end_ip_range, start_port, 
         for ip_range in range(start_ip_range, end_ip_range):
             guess_host=f'{prefix_host}{int(last_ip)+int(ip_range)}'
             guess_address=f'{guess_host}:{guess_port}'
-            if is_found_host(guess_host, guess_port) and not guess_address == address:
-                neighbours.append(guess_address)
+            # if is_found_host(guess_host, guess_port) and not guess_address == address:
+            #     neighbours.append(guess_address)
     return neighbours
 
 def get_host():
